@@ -1,0 +1,308 @@
+.text-5, .text-2{
+	color: #000;
+}
+.bg-b{
+	background: linear-gradient(to top, #043654, #6AABD0);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100% 10px;
+}
+
+.bg-0{
+	padding-top: 1%;
+	margin-bottom: 10px;
+	white-space: normal;
+}
+
+.img{
+	height: 125px;
+	width: auto;
+}
+.div-img{
+	float: right;
+}
+
+.top-center-p p{
+	text-align: center;
+	padding-top: 10%;
+	padding-left: 15%;
+	font-size: 27px;
+	line-height: 0px;
+}
+
+.top-right-p p{
+	text-align: center;
+	font-size: 26px;
+	line-height: 0.8;
+	color: #000;
+}
+
+.text-1-1{
+	padding: 5% 21% 3% 21% !important;
+	float: right;
+	text-align: center;
+	color: #fff;
+	vertical-align: middle;
+}
+
+.text-1-2{
+	padding: 0 0 2% 0;
+	background-image: url(../img/bg-grey.png);
+	color: #fff;
+	margin-bottom: 3%;
+}
+
+.text-1-2 h3,.text-1-2 h4{
+	padding-left: 5%;
+	padding-bottom: 5%;
+}
+
+.text-1-2 input{
+	width: 200px;
+	padding: 0;
+	color: #000;
+}
+
+.text-1-2 button{
+	margin-left: 2%;
+	padding: 1%;
+	background-color: #5f9ec1;
+	border: none;
+	color: #fff;
+}
+
+.bg-1{
+	background-image: url(../img/Bg-1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.bg-1 img{
+	float: left;
+	position: absolute;
+	height: 570px;
+	top: -300%;
+	z-index: 1;
+}
+
+.z-ind{
+	background-color: #fff;
+	z-index: 2;
+	position: relative;
+}
+
+.bg-1-2{
+	background-image: url(../img/bg-grey.png);
+	margin-top: 4%;
+	margin-bottom: 3%;
+	padding-bottom: 2%;
+}
+
+
+.text-2 {
+	text-align: center;
+	padding-top: 4%;
+	padding-bottom: 5%;
+	font-size:24px;
+}
+
+.text-2 h2{
+	line-height:80px;
+	font-size:35px;
+}
+
+.text-2 span {
+
+	font-size:30px;
+
+}
+
+.text-3{
+	text-align: justify;
+	font-size: 25px;
+	color: #fff;
+}
+.bg-3{
+	background-image: url(../img/Bg-2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	padding: 0 !important;
+}
+.bg-grey{
+	margin: 9% 0% 14% 0%!important;
+	padding: 3% 0%;
+	background-image: url(../img/bg-grey.png);
+}
+
+.item p{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.slide{
+	padding: 0% 1%;
+}
+
+.bg-3 .fa{
+	color: #fff;
+	font-size: 115px!important;
+	padding: 0% 10%;
+}
+
+.fa-angle-left{
+	float: right;
+}
+
+.fa-angle-right{
+	float: left;
+}
+
+.text-5{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.text-5 h2{
+	padding-bottom: 2%;
+	text-align: center;
+}
+
+.text-5 p{
+	padding: 5% 15%;
+	font-size: 23px;
+}
+
+.text-5 .fa{
+	position: absolute;
+	bottom: 75%;
+	right: 100%;
+	font-size: 37px;
+}
+
+.footer{
+	background: linear-gradient(to top, #043654, #6AABD0);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 100% 5px;
+}
+
+.footer :first-child{
+	margin-top: 5px;
+	background-color: #0f0f0f;
+	color: #fff;
+}
+.footer .row{
+	background-color: #0f0f0f;
+	color: #fff;
+}
+.footer h4{
+	padding-top: 1%;
+	padding-left: 7%;
+	font-size: 18px;
+}
+.footer h4 span{
+	text-decoration: underline;
+}
+.footer .a{
+	text-decoration: underline;
+	padding-top: 2%;
+	padding-left: 10%;
+	font-size: 16px;
+}
+.footer .b{
+	padding-top: 6%;
+	padding-left: 10%;
+	font-size: 17px;
+}
+.footer .b span{
+	color: #5f9ec1;
+}
+.footer .c{
+	font-size: 22px;
+	padding-top: 5%;
+	padding-right: 4%;
+}
+.footer .c p{
+	float: right;
+}
+
+
+@media screen and (max-width: 1260px) {
+	.bg-1-2{
+		margin-top: 0;
+	}
+	.bg-1-2 .col-lg-6{
+		width: 100%;
+	}
+	.bg-1-2 .col-lg-5, .bg-1-2 .col-lg-1{
+		display: none;
+	}
+	.bg-1 .bg-1-3 .text-1-2{
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 1780px) {
+	.bg-1-3 .text-1-2{
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.bg-1 .bg-1-3 .text-1-2{
+		width: 100% !important;
+		text-align: center;
+	}
+	.bg-1 .col-md-3{
+		display: none;
+	}
+	.bg-1-2{
+		margin-bottom: 0!important;
+	}
+	.text-1-2 h3{
+		margin-top: 0;
+		padding-top: 5%;
+		padding-bottom: 0;
+	}
+	.text-1-2 h4{
+		padding-bottom: 3%;
+	}
+	.text-1-2 input{
+		width: 300px;
+		margin-left: 8%;
+	}
+	.prev, .next{
+		display: none;
+	}
+	.text-3{
+		width: 100% !important;
+	}
+
+	.top-center-p{
+		margin-right: 7%;
+	}
+
+	.top-right-p{
+		padding-top: 2%;
+	}
+
+	.bg-0 p{
+		padding-top: 2%;
+		font-size: 20px;
+		float: none;
+		text-align: center;
+	}
+	.top-right-p p{
+		padding-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.bg-1{
+		background-image: none;
+	}
+}
