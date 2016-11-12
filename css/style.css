@@ -104,7 +104,7 @@
 	text-align: center;
 	padding-top: 4%;
 	padding-bottom: 5%;
-	font-size:24px;
+	font-size: 20px;
 }
 
 .text-2 h2{
@@ -206,8 +206,7 @@
 .footer h4 span{
 	text-decoration: underline;
 }
-.footer .a{
-	text-decoration: underline;
+.footer .text {
 	padding-top: 2%;
 	padding-left: 10%;
 	font-size: 16px;
