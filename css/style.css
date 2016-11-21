@@ -71,6 +71,32 @@
 	color: #fff;
 }
 
+.text-1-3{
+	padding: 0 0 2% 0;
+	background-image: url(../img/bg-hilite.png);
+	color: #fff;
+	margin-bottom: 3%;
+}
+
+.text-1-3 h3,.text-1-3 h4{
+	padding-left: 5%;
+	padding-bottom: 5%;
+}
+
+.text-1-3 input{
+	width: 200px;
+	padding: 0;
+	color: #000;
+}
+
+.text-1-3 button{
+	margin-left: 2%;
+	padding: 1%;
+	background-color: #5f9ec1;
+	border: none;
+	color: #fff;
+}
+
 .bg-1{
 	background-image: url(../img/Bg-1.png);
 	background-repeat: no-repeat;
